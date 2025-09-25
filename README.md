@@ -42,13 +42,13 @@
 [![NetBeans](https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white)](https://netbeans.apache.org/)  
 
 
-1. **Java**: Ngôn ngữ lập trình phổ biến, được dùng để phát triển ứng dụng trên nhiều nền tảng khác nhau.
+•	**Java**: Ngôn ngữ lập trình phổ biến, được dùng để phát triển ứng dụng trên nhiều nền tảng khác nhau.
 
-2. **UDP Multicast**: Giao thức mạng giúp truyền dữ liệu đến nhiều người nhận mà không làm quá tải mạng, dùng trong phát sóng trực tuyến.
+•	**UDP Multicast**: Giao thức mạng giúp truyền dữ liệu đến nhiều người nhận mà không làm quá tải mạng, dùng trong phát sóng trực tuyến.
 
-3. **Eclipse**: IDE mã nguồn mở, chủ yếu dùng để phát triển ứng dụng Java, hỗ trợ nhiều ngôn ngữ qua plugin.
+•	**Eclipse**: IDE mã nguồn mở, chủ yếu dùng để phát triển ứng dụng Java, hỗ trợ nhiều ngôn ngữ qua plugin.
 
-4. **NetBeans**: IDE mã nguồn mở, dễ sử dụng, hỗ trợ phát triển ứng dụng Java và các ngôn ngữ khác như PHP, C++.
+•	**NetBeans**: IDE mã nguồn mở, dễ sử dụng, hỗ trợ phát triển ứng dụng Java và các ngôn ngữ khác như PHP, C++.
 
 
 ## 🚀 3. Một số hình ảnh
