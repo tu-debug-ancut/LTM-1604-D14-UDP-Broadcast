@@ -41,7 +41,6 @@
 [![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white)](https://www.eclipse.org/)  
 [![NetBeans](https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white)](https://netbeans.apache.org/)  
 
-Dưới đây là tóm tắt các công nghệ trong hình:
 
 1. **Java**: Ngôn ngữ lập trình phổ biến, được dùng để phát triển ứng dụng trên nhiều nền tảng khác nhau.
 
@@ -51,7 +50,6 @@ Dưới đây là tóm tắt các công nghệ trong hình:
 
 4. **NetBeans**: IDE mã nguồn mở, dễ sử dụng, hỗ trợ phát triển ứng dụng Java và các ngôn ngữ khác như PHP, C++.
 
----
 
 ## 🚀 3. Một số hình ảnh
 
