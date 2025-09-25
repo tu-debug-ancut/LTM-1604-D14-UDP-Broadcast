@@ -24,7 +24,7 @@
 
 ## 1. Giới thiệu hệ thống
 
-**Ứng dụng Nhắn Tin** được phát triển theo mô hình **Client–Server**, cho phép nhiều người dùng trò chuyện trực tuyến với nhau thông qua giao diện web. cho phép nhiều người dùng giao tiếp và trò chuyện thời gian thực thông qua trình duyệt web. Ứng dụng được thiết kế nhằm mang lại trải nghiệm tương tác mượt mà, linh hoạt và tiện lợi, với giao diện đơn giản, dễ sử dụng, phù hợp cho nhiều đối tượng người dùng.
+**Ứng dụng Nhắn Tin** được phát triển theo mô hình **Client–Server**, hỗ trợ nhiều người dùng trò chuyện thời gian thực qua trình duyệt web. Ứng dụng được thiết kế với giao diện đơn giản, dễ sử dụng, mang lại trải nghiệm tương tác mượt mà, linh hoạt và phù hợp với nhiều đối tượng người dùng.
 
 🔍 Các Tính Năng Nổi Bật
 
