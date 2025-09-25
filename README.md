@@ -29,10 +29,14 @@
 🔍 Các Tính Năng Nổi Bật
 
 •	**Nhắn tin thời gian thực**: Sử dụng WebSocket (Socket.IO) để gửi và nhận tin nhắn tức thì, không cần tải lại trang.
+
 •	**Hỗ trợ nhiều phòng chat**: Người dùng dễ dàng tạo và tham gia các phòng trò chuyện theo nhóm hoặc chủ đề.
+
 •	**Quản lý người dùng online**: Hiển thị danh sách người dùng đang trực tuyến theo thời gian thực.
+
 •	**Giao diện thân thiện**: Thiết kế tối giản, hiện đại, thao tác đơn giản, phù hợp mọi đối tượng.
-•	**Tương thích đa nền tảng**: Truy cập từ máy tính, tablet, điện thoại qua trình duyệt mà không cần cài đặt thêm
+
+•	**Tương thích đa nền tảng**: Truy cập từ máy tính, tablet, điện thoại qua trình duyệt mà không cần cài đặt thêm.
 
 Tương thích đa nền tảng:
 Ứng dụng có thể truy cập dễ dàng từ máy tính, máy tính bảng hoặc điện thoại thông minh thông qua trình duyệt, không cần cài đặt phần mềm bổ sung.
