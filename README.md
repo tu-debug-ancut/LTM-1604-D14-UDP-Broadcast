@@ -44,7 +44,7 @@
 
 1. **Java**: Ngôn ngữ lập trình phổ biến, được dùng để phát triển ứng dụng trên nhiều nền tảng khác nhau.
 
-2. **UDP Multicast**: Giao thức mạng giúp truyền dữ liệu đến nhiều người nhận mà không làm quá tải mạng, thường dùng trong phát sóng trực tuyến.
+2. **UDP Multicast**: Giao thức mạng giúp truyền dữ liệu đến nhiều người nhận mà không làm quá tải mạng, dùng trong phát sóng trực tuyến.
 
 3. **Eclipse**: IDE mã nguồn mở, chủ yếu dùng để phát triển ứng dụng Java, hỗ trợ nhiều ngôn ngữ qua plugin.
 
