@@ -85,4 +85,4 @@ Contact me:
 
 📌 **Họ tên:** [Hoàng Anh Tú] – CNTT K16-04  
 📌 **Khoa:** Công nghệ thông tin – Trường Đại học Đại Nam  
-📌 **Email:** [anhtu@gmail.com]  
+📌 **Email:** [anhtu271024@gmail.com]  
