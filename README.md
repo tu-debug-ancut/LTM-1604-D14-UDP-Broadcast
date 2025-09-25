@@ -36,8 +36,8 @@
 
 •	**Giao diện thân thiện**: Thiết kế tối giản, hiện đại, thao tác đơn giản, phù hợp mọi đối tượng.
 
-Tương thích đa nền tảng:
-Ứng dụng có thể truy cập dễ dàng từ máy tính, máy tính bảng hoặc điện thoại thông minh thông qua trình duyệt, không cần cài đặt phần mềm bổ sung.
+•	**Tương thích đa nền tảng**: Ứng dụng có thể truy cập dễ dàng từ máy tính, máy tính bảng hoặc điện thoại thông minh thông qua trình duyệt, không cần cài đặt phần mềm bổ sung.
+
 ---
 
 ## 🔧 2. Công nghệ & Ngôn ngữ sử dụng
