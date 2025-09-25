@@ -71,14 +71,6 @@
 
 
 ---
-
-## 📌 5. Ý nghĩa ứng dụng
-- Rèn luyện kỹ năng sử dụng **UDP Socket**.  
-- Hiểu rõ hơn về **lập trình mạng phân tán**.  
-- Làm nền tảng mở rộng sang **TCP/HTTP WebSocket** hoặc **chat server phân tán** trong tương lai.  
-
----
-
 ## 👨‍💻 6. Liên hệ (cá nhân)
 
 Contact me:  
