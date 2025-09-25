@@ -47,6 +47,7 @@
 
 Chi tiết công nghệ 
 
+
 •	**Java**: Ngôn ngữ lập trình phổ biến, được dùng để phát triển ứng dụng trên nhiều nền tảng khác nhau.
 
 •	**UDP Multicast**: Giao thức mạng giúp truyền dữ liệu đến nhiều người nhận mà không làm quá tải mạng, dùng trong phát sóng trực tuyến.
