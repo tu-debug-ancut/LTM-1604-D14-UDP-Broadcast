@@ -26,19 +26,17 @@
 
 **Ứng dụng Nhắn Tin** được xây dựng theo mô hình **Client–Server**, cho phép nhiều người dùng trò chuyện trực tuyến với nhau thông qua giao diện web.  
 
-🔍 Các Tính Năng Nổi Bật:
-
-Nhắn tin theo thời gian thực:
-Hệ thống sử dụng công nghệ WebSocket (hoặc thư viện tương đương như Socket.IO) để đảm bảo việc gửi và nhận tin nhắn diễn ra tức thì, không cần tải lại trang.
-
-Hỗ trợ nhiều phòng trò chuyện (Chat rooms):
-Người dùng có thể dễ dàng tạo mới hoặc tham gia các phòng chat sẵn có, phục vụ cho việc trao đổi theo nhóm, theo chủ đề hoặc theo mục đích sử dụng riêng.
-
-Quản lý người dùng online:
-Giao diện hiển thị danh sách người dùng đang trực tuyến theo thời gian thực, giúp người dùng biết được ai đang hoạt động và sẵn sàng trò chuyện.
-
-Giao diện người dùng thân thiện và trực quan:
-Thiết kế tối giản, hiện đại, tập trung vào trải nghiệm người dùng với bố cục rõ ràng, thao tác đơn giản, phù hợp với cả người mới và người dùng thành thạo.
+🔍 Các Tính Năng Nổi Bật
+•	Nhắn tin thời gian thực:
+Sử dụng WebSocket (Socket.IO) để gửi và nhận tin nhắn tức thì, không cần tải lại trang.
+•	Hỗ trợ nhiều phòng chat:
+Người dùng dễ dàng tạo và tham gia các phòng trò chuyện theo nhóm hoặc chủ đề.
+•	Quản lý người dùng online:
+Hiển thị danh sách người dùng đang trực tuyến theo thời gian thực.
+•	Giao diện thân thiện:
+Thiết kế tối giản, hiện đại, thao tác đơn giản, phù hợp mọi đối tượng.
+•	Tương thích đa nền tảng:
+Truy cập từ máy tính, tablet, điện thoại qua trình duyệt mà không cần cài đặt thêm
 
 Tương thích đa nền tảng:
 Ứng dụng có thể truy cập dễ dàng từ máy tính, máy tính bảng hoặc điện thoại thông minh thông qua trình duyệt, không cần cài đặt phần mềm bổ sung.
