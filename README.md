@@ -29,10 +29,6 @@
 
 •	**Nhắn tin thời gian thực**: Sử dụng WebSocket (Socket.IO) để gửi và nhận tin nhắn tức thì, không cần tải lại trang.
 
-•	**Hỗ trợ nhiều phòng chat**: Người dùng dễ dàng tạo và tham gia các phòng trò chuyện theo nhóm hoặc chủ đề.
-
-•	**Quản lý người dùng online**: Hiển thị danh sách người dùng đang trực tuyến theo thời gian thực.
-
 •	**Giao diện thân thiện**: Thiết kế tối giản, hiện đại, thao tác đơn giản, phù hợp mọi đối tượng.
 
 ---
@@ -49,38 +45,78 @@ Chi tiết công nghệ
 
 •	**Java**: Ngôn ngữ lập trình phổ biến, được dùng để phát triển ứng dụng trên nhiều nền tảng khác nhau.
 
-•	**UDP Multicast**: Giao thức mạng giúp truyền dữ liệu đến nhiều người nhận mà không làm quá tải mạng, dùng trong phát sóng trực tuyến.
-
 •	**Eclipse**: IDE mã nguồn mở, chủ yếu dùng để phát triển ứng dụng Java, hỗ trợ nhiều ngôn ngữ qua plugin.
-
-•	**NetBeans**: IDE mã nguồn mở, dễ sử dụng, hỗ trợ phát triển ứng dụng Java và các ngôn ngữ khác như PHP, C++.
-
 
 ## 🚀 3. Một số hình ảnh
 
-### Giao diện đăng nhập
-![Cấu trúc chương trình](demo/1.jpeg)
+### Cấu trúc chương trình
+![Cấu trúc chương trình](demo/prj.png)
 
-### Giao diện chat room
-![Luồng xử lý](demo/2.jpeg)
-
-### Giao diện tạo room
-![Giao diện](demo/3.jpeg)
+### Giao diện chương trình
+![Giao diện](demo/ui.png)
 
 ---
 
+
 ## ⚙️ 4. Các bước cài đặt & chạy
 
-🔧 **Bước 1. Chuẩn bị môi trường**
-- Cài đặt **JDK 8 hoặc 11**.  
-- IDE khuyến nghị: **Eclipse** hoặc **NetBeans**.  
-
-📦 **Bước 2. Tải project**
-- Clone repository từ GitHub:  
+#### 🔧 Bước 1: Chuẩn bị môi trường
+- Cài đặt **JDK 21** hoặc **JDK 24**.
+- IDE khuyến nghị:  
+  - **Eclipse**  
+  - **NetBeans**  
+  - **IntelliJ IDEA** (tùy chọn)  
+- Kiểm tra cài đặt Java:
   ```bash
-  git clone https://github.com/username/udp-multicast-chat.git
-  cd udp-multicast-chat
+  java -version
+  javac -version
+  ```
 
+#### 📦 Bước 2: Tải project
+- Clone repository từ GitHub:
+  ```bash
+  git clone https://github.com/tu-debug-ancut/udp-multicast-chat.git
+  cd udp-multicast-chat
+  ```
+
+#### ⚡ Bước 3: Import project vào IDE
+- Mở IDE → Chọn **Import Project** → **Existing Java Project**.  
+- Chỉ định thư mục `udp-multicast` vừa tải về.  
+- Kiểm tra cấu trúc source code (`src/main/java`) được IDE nhận đúng.  
+
+#### 🛠 Bước 4: Cấu hình ứng dụng
+- Mở file `AppConfig.java`.  
+- Điều chỉnh thông số nếu cần:
+  - **Địa chỉ Multicast** (ví dụ: `230.0.0.0`)  
+  - **Cổng UDP** (ví dụ: `4446`)  
+  - **Kích thước gói tin**, **timeout**, v.v.  
+
+#### ▶️ Bước 5: Chạy ứng dụng
+- Trong IDE, chạy class `UdpBroadcastView.java` (hoặc `UDPBroadcastUI.java` nếu giữ tên cũ).  
+- Mở **nhiều cửa sổ** ứng dụng để mô phỏng nhiều client.  
+- Gửi tin nhắn trong một cửa sổ → kiểm tra các cửa sổ khác nhận được tin nhắn qua UDP multicast.  
+
+#### 🚀 Bước 6: Build & chạy file JAR (tùy chọn)
+Nếu muốn chạy ứng dụng mà không cần IDE:
+```bash
+# Biên dịch mã nguồn
+javac -d out src/**/*.java
+
+# Tạo file JAR
+jar cvfe udp-chat.jar ui.UdpBroadcastUI -C out .
+```
+
+Chạy ứng dụng qua file JAR:
+```bash
+java -jar udp-chat.jar
+```
+
+#### ✅ Bước 7: Kiểm tra & gỡ lỗi
+- Kiểm tra **Firewall**: cho phép Java sử dụng UDP multicast.  
+- Nếu tin nhắn không truyền được:  
+  - Kiểm tra địa chỉ IP & cổng.  
+  - Thử chạy trên cùng một mạng LAN/WiFi.  
+- Có thể thêm **log** trong `NetworkUtils` để debug chi tiết hơn.  
 
 ---
 ## 👨‍💻 5 . Liên hệ (cá nhân)
